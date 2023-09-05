@@ -1,0 +1,31 @@
+{
+  "name": "project-helion",
+  "version": "1.0.0",
+  "description": "Helion Automation",
+  "main": "index.js",
+  "scripts": {
+    "e2e": "wdio wdio.conf.ts --suite e2e",
+    "debug": "wdio wdio.conf.ts --suite debug"
+  },
+  "keywords": [
+    "automation",
+    "framework",
+    "helion",
+    "typescript",
+    "webdriwerio"
+  ],
+  "author": "AutomationQA",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/allure-reporter": "^8.16.3",
+    "@wdio/cli": "^8.15.10",
+    "@wdio/local-runner": "^8.15.10",
+    "@wdio/mocha-framework": "^8.15.10",
+    "@wdio/spec-reporter": "^8.15.10",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "allure-commandline": "^2.24.0"
+  }
+}
